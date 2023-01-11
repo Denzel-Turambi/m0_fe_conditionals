@@ -25,22 +25,22 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 console.log(`is numberTeachers less than numberStudents?`, numberTeachers < numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
-
+console.log (`is numberTeachers strictly equal to stringTeachers?`, numberTeachers === stringTeachers);
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-
+console.log(`Is numberTeachers not equal to numberStudents?`, numberTeachers !== numberStudents)
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-
+console.log(`Is numberStudents greater than or equal to 20?`, numberStudents >= 20)
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
-
+console.log(`Is numberStudents greaather than or equal to 21?`, numberStudents >= 21)
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
-
+console.log(`is NumberStudents less than or equal to 20?`, numberStudents <= 20)
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log(`is numberStudents less than or equal to 21?`, numberStudents <= 21)
 
 // #-------------------
 // PART 2: Articulating what you are doing
@@ -53,7 +53,7 @@ console.log(`is numberTeachers less than numberStudents?`, numberTeachers < numb
 
 console.log(4 < 9);
 // YOU DO: Explain.
-
+// 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
