@@ -53,21 +53,27 @@ console.log(`is numberStudents less than or equal to 21?`, numberStudents <= 21)
 
 console.log(4 < 9);
 // YOU DO: Explain.
-// 
+// console.log will print out a true or false statement based on the prompt given to it, which is 4 < 9.
+// In this case, if you run 'node comparisons.js' in the terminal,v the code will print out: true.
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-
+// The first line declares 3 as books. The second line is asking if 4 is less than books, essentially, is 4 less than 3. 
+// This should log: false. 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-
+// friends is declaring 6 as a number, and 2 is declaring 2 as a number.
+// the console.log is asking if friends is greater than siblings, or is 6 greater than 2.
+// This should log: true.
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-
+// attendees declares 9 as a number, and meals declares 8 as a number.
+// the console.log is asking if attendees is not strictly equal to meals, or is 9 not strictly equal to 8.
+// this should log: true
 
 // #-------------------
 // PART 3: Logical Operators
@@ -89,15 +95,18 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(`does the dog love to play and love treats?`, lovesToPlay && lovesTreats)
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(`does the dog love to play and love the dog park?`, lovesToPlay && lovesDogPark)
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(`does the dog love to play or love the dog park?`, lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
-
+console.log(`does the dog love to play and is it a puppy?`, lovesToPlay && age <= 1)
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: the final line of code evaluated to: true.
+// This is because, lovesToPlay was declared as true, and the dog's age is 1.(To me, that is still a puppy)
+// running `age <= 1` is asking is it true that the puppy's age is less than or equal to 1.
+// Therefore, both loveToPlay and age are true, and the printed log would be: true.
